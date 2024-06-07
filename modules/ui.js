@@ -14,7 +14,7 @@ export function createProductCard(product) {
   cardBody.className = 'p-4';
 
   const title = document.createElement('h2');
-  title.className = 'text-lg font-semibold';
+  title.className = 'text-lg font-semibold truncate';
   title.textContent = product.title;
 
   const price = document.createElement('p');
